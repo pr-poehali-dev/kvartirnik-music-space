@@ -126,51 +126,9 @@
       0 8px 40px -8px hsl(36 90% 56% / 0.25);
   }
   .carpet {
-    background-color: hsl(350 45% 13%);
-    background-image:
-      radial-gradient(
-        circle at 50% 50%,
-        hsl(36 80% 50% / 0.22) 0 7%,
-        transparent 7%
-      ),
-      radial-gradient(
-        circle at 0% 0%,
-        hsl(36 80% 50% / 0.14) 0 6%,
-        transparent 6%
-      ),
-      radial-gradient(
-        circle at 100% 0%,
-        hsl(36 80% 50% / 0.14) 0 6%,
-        transparent 6%
-      ),
-      radial-gradient(
-        circle at 0% 100%,
-        hsl(36 80% 50% / 0.14) 0 6%,
-        transparent 6%
-      ),
-      radial-gradient(
-        circle at 100% 100%,
-        hsl(36 80% 50% / 0.14) 0 6%,
-        transparent 6%
-      ),
-      repeating-linear-gradient(
-        45deg,
-        hsl(160 40% 28% / 0.3) 0 4px,
-        transparent 4px 16px
-      ),
-      repeating-linear-gradient(
-        -45deg,
-        hsl(160 40% 28% / 0.3) 0 4px,
-        transparent 4px 16px
-      );
-    background-size:
-      80px 80px,
-      80px 80px,
-      80px 80px,
-      80px 80px,
-      80px 80px,
-      100% 100%,
-      100% 100%;
+    background-image: url("https://cdn.poehali.dev/projects/69c61bfd-56be-4aa2-8578-eebc1906fa28/files/19abce5a-5444-4dd3-aa32-55e28369bf6e.jpg");
+    background-size: 500px auto;
+    background-repeat: repeat;
   }
   .carpet-border {
     border-image: repeating-linear-gradient(
