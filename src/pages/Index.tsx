@@ -33,7 +33,7 @@ const Index = () => {
   };
 
   return (
-    <div className="dark min-h-screen bg-background text-foreground grain overflow-x-hidden">
+    <div className="dark min-h-screen text-foreground grain overflow-x-hidden">
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 backdrop-blur-md bg-background/70 border-b border-border">
         <div className="container flex items-center justify-between h-16">
