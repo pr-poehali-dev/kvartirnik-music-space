@@ -91,9 +91,13 @@
   body {
     @apply text-foreground;
     font-family: "Golos Text", sans-serif;
-    background-color: hsl(10 30% 10%);
-    background-image: url("https://cdn.poehali.dev/projects/69c61bfd-56be-4aa2-8578-eebc1906fa28/files/d7944352-b2bc-43d7-be29-6e3daf3f591f.jpg");
-    background-size: 600px auto;
+    background-color: hsl(10 20% 6%);
+    background-image:
+      linear-gradient(hsl(10 20% 6% / 0.82), hsl(10 20% 6% / 0.82)),
+      url("https://cdn.poehali.dev/projects/69c61bfd-56be-4aa2-8578-eebc1906fa28/files/6a5e4ec2-1054-4969-aa6c-bee89c922ef3.jpg");
+    background-size:
+      auto,
+      500px auto;
     background-repeat: repeat;
     background-attachment: fixed;
   }
@@ -126,8 +130,12 @@
       0 8px 40px -8px hsl(36 90% 56% / 0.25);
   }
   .carpet {
-    background-image: url("https://cdn.poehali.dev/projects/69c61bfd-56be-4aa2-8578-eebc1906fa28/files/19abce5a-5444-4dd3-aa32-55e28369bf6e.jpg");
-    background-size: 500px auto;
+    background-image:
+      linear-gradient(hsl(10 20% 6% / 0.72), hsl(10 20% 6% / 0.72)),
+      url("https://cdn.poehali.dev/projects/69c61bfd-56be-4aa2-8578-eebc1906fa28/files/58013593-e8d0-45c3-b33d-2cde7e750f44.jpg");
+    background-size:
+      auto,
+      500px auto;
     background-repeat: repeat;
   }
   .carpet-border {
