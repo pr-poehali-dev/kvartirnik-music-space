@@ -35,19 +35,12 @@
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -98,39 +91,41 @@
   body {
     @apply text-foreground;
     font-family: "Golos Text", sans-serif;
-    background-color: hsl(14 18% 7%);
+    /* тёмная матовая кирпичная стена — лофт стиль */
+    background-color: hsl(15 7% 10%);
     background-image:
       repeating-linear-gradient(
         180deg,
-        transparent 0px,
-        transparent 28px,
-        hsl(10 30% 3% / 0.9) 28px,
-        hsl(10 30% 3% / 0.9) 31px
+        hsl(15 8% 13%) 0px,
+        hsl(15 6% 9%) 18px,
+        hsl(15 6% 9%) 27px,
+        hsl(10 5% 5%) 27px,
+        hsl(10 5% 5%) 32px
       ),
       repeating-linear-gradient(
         90deg,
         transparent 0px,
-        transparent 59px,
-        hsl(10 30% 3% / 0.75) 59px,
-        hsl(10 30% 3% / 0.75) 62px
+        transparent 62px,
+        hsl(10 5% 5%) 62px,
+        hsl(10 5% 5%) 67px
       ),
       repeating-linear-gradient(
         90deg,
         transparent 0px,
-        transparent 28px,
-        hsl(10 30% 3% / 0.75) 28px,
-        hsl(10 30% 3% / 0.75) 31px,
-        transparent 31px,
-        transparent 90px
+        transparent 29px,
+        hsl(10 5% 5%) 29px,
+        hsl(10 5% 5%) 34px,
+        transparent 34px,
+        transparent 96px
       );
     background-size:
-      62px 31px,
-      62px 62px,
-      62px 62px;
+      67px 32px,
+      67px 64px,
+      67px 64px;
     background-position:
       0 0,
       0 0,
-      0 31px;
+      0 32px;
   }
 }
 
