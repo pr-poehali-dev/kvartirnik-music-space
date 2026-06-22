@@ -91,41 +91,11 @@
   body {
     @apply text-foreground;
     font-family: "Golos Text", sans-serif;
-    /* тёмная матовая кирпичная стена — лофт стиль */
-    background-color: hsl(15 7% 10%);
-    background-image:
-      repeating-linear-gradient(
-        180deg,
-        hsl(15 8% 13%) 0px,
-        hsl(15 6% 9%) 18px,
-        hsl(15 6% 9%) 27px,
-        hsl(10 5% 5%) 27px,
-        hsl(10 5% 5%) 32px
-      ),
-      repeating-linear-gradient(
-        90deg,
-        transparent 0px,
-        transparent 62px,
-        hsl(10 5% 5%) 62px,
-        hsl(10 5% 5%) 67px
-      ),
-      repeating-linear-gradient(
-        90deg,
-        transparent 0px,
-        transparent 29px,
-        hsl(10 5% 5%) 29px,
-        hsl(10 5% 5%) 34px,
-        transparent 34px,
-        transparent 96px
-      );
-    background-size:
-      67px 32px,
-      67px 64px,
-      67px 64px;
-    background-position:
-      0 0,
-      0 0,
-      0 32px;
+    background-color: hsl(10 30% 10%);
+    background-image: url("https://cdn.poehali.dev/projects/69c61bfd-56be-4aa2-8578-eebc1906fa28/files/d7944352-b2bc-43d7-be29-6e3daf3f591f.jpg");
+    background-size: 600px auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
   }
 }
 
