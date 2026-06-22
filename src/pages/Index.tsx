@@ -37,7 +37,7 @@ const Index = () => {
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-40 backdrop-blur-md bg-background/70 border-b border-border">
         <div className="container flex items-center justify-between h-16">
-          <button onClick={() => scrollTo('home')} className="font-display font-black text-xl tracking-tight text-primary text-glow">
+          <button onClick={() => scrollTo('home')} className="font-display font-black text-xl tracking-tight neon-sign">
             Квартирник
           </button>
           <nav className="hidden md:flex items-center gap-7">
@@ -73,10 +73,13 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-background/80 to-transparent" />
         </div>
         <div className="container relative">
-          <p className="font-display text-primary tracking-[0.3em] text-xs md:text-sm mb-5 animate-float-up" style={{ animationDelay: '0.1s' }}>
+          <p className="font-display text-primary tracking-[0.3em] text-xs md:text-sm mb-4 animate-float-up" style={{ animationDelay: '0.1s' }}>
             ЖИВАЯ МУЗЫКА · БАР · СЦЕНА
           </p>
-          <h1 className="font-display font-black leading-[0.95] text-5xl md:text-8xl max-w-4xl animate-float-up" style={{ animationDelay: '0.25s' }}>
+          <div className="font-display font-black neon-sign text-6xl md:text-9xl leading-none mb-4 animate-float-up" style={{ animationDelay: '0.18s' }}>
+            Квартирник
+          </div>
+          <h1 className="font-display font-black leading-[0.95] text-3xl md:text-6xl max-w-4xl animate-float-up" style={{ animationDelay: '0.3s' }}>
             Здесь играют <span className="text-primary text-glow animate-flicker">вживую</span>
           </h1>
           <p className="font-serif-display italic text-xl md:text-3xl text-foreground/80 mt-6 max-w-2xl animate-float-up" style={{ animationDelay: '0.4s' }}>
@@ -155,10 +158,11 @@ const Index = () => {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="relative py-24 border-y border-border bg-secondary/20">
-        <div className="container grid md:grid-cols-2 gap-14 items-center">
+      <section id="about" className="relative py-24 border-y border-border carpet">
+        <div className="absolute inset-0 bg-background/55" />
+        <div className="container relative grid md:grid-cols-2 gap-14 items-center">
           <div className="relative">
-            <img src={BAR_IMG} alt="Бар Квартирник" className="rounded-3xl glow-border w-full object-cover aspect-[4/3]" />
+            <img src={BAR_IMG} alt="Бар Квартирник" className="carpet-border rounded-xl w-full object-cover aspect-[4/3]" />
             <div className="absolute -bottom-6 -right-4 md:-right-6 bg-primary text-primary-foreground rounded-2xl px-6 py-5 font-display shadow-2xl">
               <div className="text-3xl font-black">7</div>
               <div className="text-xs tracking-wider">вечеров в неделю</div>
