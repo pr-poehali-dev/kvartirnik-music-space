@@ -254,10 +254,10 @@ const Index = () => {
           <div className="space-y-3">
             <p className="font-display text-primary tracking-[0.2em] text-xs mb-4">КОНТАКТЫ</p>
             <a href="#" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition-colors">
-              <Icon name="MapPin" size={18} className="text-primary" /> г. Москва, ул. Музыкальная, 12
+              <Icon name="MapPin" size={18} className="text-primary" /> г. Снежинск, ул. Ломинского, д. 1. Цокольный этаж
             </a>
-            <a href="#" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition-colors">
-              <Icon name="Phone" size={18} className="text-primary" /> +7 (900) 000-00-00
+            <a href="tel:+79026078706" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition-colors">
+              <Icon name="Phone" size={18} className="text-primary" /> +7 (902) 607-87-06
             </a>
             <a href="#" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition-colors">
               <Icon name="Mail" size={18} className="text-primary" /> hello@kvartirnik.ru
