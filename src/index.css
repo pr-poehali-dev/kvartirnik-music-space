@@ -4,22 +4,22 @@
 
 @layer base {
   :root {
-    --background: 200 30% 6%;
+    --background: 14 14% 7%;
     --foreground: 40 30% 92%;
 
-    --card: 198 28% 9%;
+    --card: 13 13% 10%;
     --card-foreground: 40 30% 92%;
 
-    --popover: 198 28% 9%;
+    --popover: 13 13% 10%;
     --popover-foreground: 40 30% 92%;
 
     --primary: 36 90% 56%;
-    --primary-foreground: 200 40% 8%;
+    --primary-foreground: 14 20% 8%;
 
-    --secondary: 195 25% 14%;
+    --secondary: 13 12% 14%;
     --secondary-foreground: 40 30% 92%;
 
-    --muted: 195 20% 16%;
+    --muted: 13 10% 17%;
     --muted-foreground: 40 12% 62%;
 
     --accent: 350 70% 52%;
@@ -28,8 +28,8 @@
     --destructive: 0 70% 45%;
     --destructive-foreground: 40 30% 95%;
 
-    --border: 195 22% 18%;
-    --input: 195 22% 18%;
+    --border: 13 12% 20%;
+    --input: 13 12% 20%;
     --ring: 36 90% 56%;
 
     --radius: 0.75rem;
@@ -98,6 +98,36 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Golos Text", sans-serif;
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 22px,
+        hsl(14 18% 12% / 0.55) 22px,
+        hsl(14 18% 12% / 0.55) 24px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 48px,
+        hsl(14 18% 5% / 0.3) 48px,
+        hsl(14 18% 5% / 0.3) 50px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent 0px,
+        transparent 24px,
+        hsl(14 18% 12% / 0.22) 24px,
+        hsl(14 18% 12% / 0.22) 25px
+      );
+    background-size:
+      100px 24px,
+      100px 48px,
+      100px 48px;
+    background-position:
+      0 0,
+      0 0,
+      50px 24px;
   }
 }
 
