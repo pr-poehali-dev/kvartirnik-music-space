@@ -93,7 +93,7 @@
     font-family: "Golos Text", sans-serif;
     background-color: hsl(10 20% 6%);
     background-image:
-      linear-gradient(hsl(10 20% 6% / 0.82), hsl(10 20% 6% / 0.82)),
+      linear-gradient(hsl(10 20% 6% / 0.72), hsl(10 20% 6% / 0.72)),
       url("https://cdn.poehali.dev/projects/69c61bfd-56be-4aa2-8578-eebc1906fa28/files/6a5e4ec2-1054-4969-aa6c-bee89c922ef3.jpg");
     background-size:
       auto,

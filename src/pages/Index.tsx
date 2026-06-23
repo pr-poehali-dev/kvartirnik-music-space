@@ -158,7 +158,7 @@ const Index = () => {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="relative py-24 border-y border-border carpet">
+      <section id="about" className="relative py-24 border-y border-border">
         <div className="absolute inset-0 bg-background/55" />
         <div className="container relative grid md:grid-cols-2 gap-14 items-center">
           <div className="relative">
